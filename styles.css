@@ -1,0 +1,40 @@
+.page-background {
+    background-image: url("https://www.universetoday.com/wp-content/uploads/2018/11/STSCI-H-p1861a-f-1065x944.jpg");
+    background-color: rgb(8, 10, 124);
+  }
+
+  .vikings-background {
+    background-color: rgb(8, 10, 124);
+  }
+
+  .awesomecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 150px;
+  } 
+
+  .centerlinks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 150px;
+  } 
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .newulmtext {
+
+  }
